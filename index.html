@@ -33,15 +33,31 @@
 	<main>
 		<div class="pelicula-principal">
 			<div class="contenedor">
-                            <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12">
-      <figure>
-        <img class="img-fluid rounded d-block m-l-none" alt="Everest" src="https://static.displate.com/857x1200/displate/2022-10-03/afdad4aab3c7da21656b461f607446a6_1e0ac7c1aa05272e5ab761f981e02c56.jpg">
-      </figure>
+                          <section class="banner">
+        <img src="https://static.displate.com/857x1200/displate/2022-10-03/afdad4aab3c7da21656b461f607446a6_1e0ac7c1aa05272e5ab761f981e02c56.jpg" alt="personaje" class="bg" />
+        <span class="sombraImg"></span>
+        <div class="content">
+          <h4>
+            <span>Pelicula</span>
+          </h4>
+          <p>
+            En plena subida al pico más alto del mundo dos expediciones distintas dirigidas por Rob Hall y Scott Fischer se encuentran con graves problemas cuando una terrible nevada tiene lugar. Los alpinistas pondrán a prueba su temple y serenidad mientras se ven obligados a superar distintos obstáculos para sobrevivir, en una complicada lucha contra la furia desatada de los elementos.
+          </p>
+          <div class="buttons">
+            <a href="#">Play</a>
+            <a href="#">My list</a>
           </div>
-        <h3 class="titulo">EVEREST</h3>
-				<p class="descripcion">
-					En plena subida al pico más alto del mundo dos expediciones distintas dirigidas por Rob Hall y Scott Fischer se encuentran con graves problemas cuando una terrible nevada tiene lugar. Los alpinistas pondrán a prueba su temple y serenidad mientras se ven obligados a superar distintos obstáculos para sobrevivir, en una complicada lucha contra la furia desatada de los elementos.
-				</p>
+        </div>
+        <a href="#" class="play" onclick="toggleVideo();">
+            <img src="./img/play.png" />Watch Trailer
+        </a>
+      </section>
+      <section class="trailer">
+        <video src="./img/trailer.mp4" controls="true"></video>
+        <img src="./img/close.png" class="close" onclick="toggleVideo();">
+
+      </section>
+        <h3 class="titulo">EVEREST</h3>		
         <a href="//ok.ru/videoembed/3925405796967?autoplay=1">
           <button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
         </a>
